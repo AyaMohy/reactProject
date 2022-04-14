@@ -1,4 +1,4 @@
-//gits a list of authors from the API
+
 
 import { useEffect, useReducer } from "react";
 import {authorsReducer} from "../Redux/reducerFunctions";

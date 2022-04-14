@@ -1,7 +1,7 @@
 import { useCallback, useRef } from "react";
 import {createPortal} from "react-dom";
 
-//this modal is used in authorDetailsPage
+
 
 export function CreatePostModal({authorid}){
 
@@ -31,9 +31,9 @@ export function CreatePostModal({authorid}){
         <div className="modal">
             <h1>Create Post</h1>
             <label htmlFor="title">Title</label>
-            <input ref={postTitle} type="text" placeholder="title of the post" id="title"/><br/>
+            <input ref={postTitle} type="text" placeholder="title " id="title"/><br/>
             <label htmlFor="body">Body</label>
-            <input ref={postBody} type="text" placeholder="body of the post" id="body"/><br/>
+            <input ref={postBody} type="text" placeholder="body " id="body"/><br/>
             <button onClick={handleAddPost}>Post</button>
         </div>
     ,document.body);

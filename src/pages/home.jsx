@@ -3,8 +3,6 @@ import { useAuthors } from "../hook/useAuthors";
 import {AuthorsData} from "../component/AuthorsData";
 
 export function Home() {
-  
-  //getting the list of authors from the API
   const AuthorsList = useAuthors();
 
   return (

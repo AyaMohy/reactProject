@@ -1,4 +1,3 @@
-//gits a list of posts from the API
 
 import { useEffect, useReducer } from "react";
 import {postsReducer} from "../Redux/reducerFunctions";

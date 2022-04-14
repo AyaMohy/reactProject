@@ -10,10 +10,10 @@ export function AuthorDetails() {
 
 const { authorid } = useParams();
 
-//getting the author data 
+
 const AuthorData = useAuthorData(authorid);
 
-//getting the posts list
+
 const PostsList= usePosts();
 
   return (

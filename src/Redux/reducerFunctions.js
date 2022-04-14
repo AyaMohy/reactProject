@@ -11,7 +11,6 @@ export function postsReducer(state,action){
     }
   } 
 
-//reducer function for aithors fetch
 export function authorsReducer(state,action){
 
     switch(action.type){
@@ -24,7 +23,7 @@ export function authorsReducer(state,action){
     }
   } 
 
-//reducer function for comments fetch
+
 export function commentsReducer(state,action){
 
     switch(action.type){

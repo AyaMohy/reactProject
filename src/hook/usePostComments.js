@@ -1,4 +1,4 @@
-//gits a list of comments for a specific post from the API
+
 
 import { useEffect, useReducer} from "react";
 import {commentsReducer} from "../Redux/reducerFunctions";
